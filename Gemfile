@@ -8,7 +8,10 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
+# Bootstrap Style Framework
 gem 'bootstrap-sass'
+# Pagination Gem
+gem 'kaminari'
 
 
 group :doc do
