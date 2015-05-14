@@ -12,6 +12,8 @@ gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass'
 # Pagination Gem
 gem 'kaminari'
+# Create simple Rails forms
+gem 'simple_form'
 
 
 group :doc do
