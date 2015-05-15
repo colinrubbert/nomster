@@ -14,6 +14,8 @@ gem 'bootstrap-sass'
 gem 'kaminari'
 # Create simple Rails forms
 gem 'simple_form'
+# User authentication
+gem 'devise'
 
 
 group :doc do
