@@ -16,6 +16,10 @@ gem 'kaminari'
 gem 'simple_form'
 # User authentication
 gem 'devise'
+# Conver user given address to latitude/longitude
+gem 'geocoder'
+# Storing data in environment variables
+gem 'figaro'
 
 
 group :doc do
