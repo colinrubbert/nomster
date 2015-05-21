@@ -8,6 +8,18 @@
       <small><%= place.user.email %></small>
     <% end %>
 
+    <br />
+    <div class="clear"></div>
+    <br />
+
+    <% if place.photos.present? %>
+      <div class="col-xs-10 col-xs-offset-1">
+        <%= image_tag place.photos.first.picture, :class => 'img-responsive center' %>
+      </div>
+    <% end %>
+
+    <br />
+
     <% if place.comments.present? %>
       <div class="col-xs-12">
         <blockquote>

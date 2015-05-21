@@ -19,6 +19,8 @@ gem 'devise'
 gem 'geocoder'
 # Storing data in environment variables
 gem 'figaro'
+# Photo and file upload
+gem 'carrierwave'
 
 
 # Turbolinks disabled because of bug issues
