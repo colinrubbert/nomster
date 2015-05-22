@@ -21,6 +21,8 @@ gem 'geocoder'
 gem 'figaro'
 # Photo and file upload
 gem 'carrierwave'
+# Communication between carrierwave and Amazon AWS
+gem 'fog', '~> 1.3.1'
 
 
 # Turbolinks disabled because of bug issues
