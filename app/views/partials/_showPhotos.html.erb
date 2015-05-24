@@ -3,12 +3,14 @@
 <br />
 <% @place.photos.each do |photo| %>
   <div class="col-xs-10 col-xs-offset-1">
-    <%= image_tag photo.picture, :class => 'img-responsive img-post' %>
-    <div class="photo_cap center">
+    <br />
+    <%= image_tag photo.picture, :class => 'img-responsive img-thumbnail' %>
+    <div class="photo_cap">
       <%= photo.caption %>
     </div>
+    <br />
     <% if current_user && current_user == @place.user %>
-      <%= link_to 'Delete Photo', place_photo_path(@place, photo), :method => :delete, :data => {:confirm => 'Are you sure you want to delete this?'}, :class => 'btn btn-danger pull-right' %>
+      <%= link_to 'Delete Photo', place_photo_path(@place, photo), :method => :delete, :data => {:confirm => 'Are you sure you want to delete this?'}, :class => 'btn btn-danger' %>
     <% end %>
   </div>
   <br />

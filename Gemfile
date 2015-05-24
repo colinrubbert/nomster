@@ -25,6 +25,7 @@ gem 'carrierwave'
 gem 'fog', '~> 1.3.1'
 
 
+
 # Turbolinks disabled because of bug issues
 # gem 'turbolinks'
 
