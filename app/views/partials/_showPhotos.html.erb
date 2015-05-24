@@ -2,8 +2,8 @@
 <hr />
 <br />
 <% @place.photos.each do |photo| %>
-  <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0">
-    <%= image_tag photo.picture, :class => 'img-responsive center' %>
+  <div class="col-xs-10 col-xs-offset-1">
+    <%= image_tag photo.picture, :class => 'img-responsive img-post' %>
     <div class="photo_cap center">
       <%= photo.caption %>
     </div>
