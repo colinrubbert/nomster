@@ -23,6 +23,8 @@ gem 'figaro'
 gem 'carrierwave'
 # Communication between carrierwave and Amazon AWS
 gem 'fog', '~> 1.3.1'
+# Testing framework
+gem 'factory_girl_rails', '~> 4.0'
 
 
 
