@@ -8,4 +8,19 @@ class Place < ActiveRecord::Base
 
   validates :name, :address, :description, :presence => true
   validates :name, :length => { minimum: 3 }
+
+
+########################################
+##  Test Search Functionality         ##
+##  Broken b/c of Kaminari pagination ##
+########################################
+
+#  def self.search(search)
+#    if search
+#      where("name LIKE ?", "%#{search}%").page(params[:page]).per(6)
+#    else
+#      find(:all)
+#    end
+#  end
+
 end
